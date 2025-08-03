@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page is about the information of Forms and input tags">
+    <title>Form making</title>
+</head>
+
+<body>
+    <h1>Form - Sigma Web development {Student Enrollment}</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter your username</label>
+            <input type="text" id="username" name="username" placeholder="Enter username" autofocus>
+        </div>
+             <label>Enter the gender</label>
+            <input type="radio" id="male" name="gender" value="male" >
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        <div>
+
+        <div>
+            <label for="nation">Enter your nationality</label>
+            <input type="text" name="Country" id="nation" placeholder="Country name">
+        </div>
+            <label for="Education" >Education level</label>
+            <input type="radio" name="Education qualification" id="school" value="School">
+            <label for="school">School</label>
+            <input type="radio" name="Education qualification" id="college" value="College">
+            <label for="college">College</label>
+        </div>
+       <div>
+        <label for="marks">Last year performance</label>
+        <input type="text" name="marks" id="marks" placeholder="Enter your marks">
+       </div>
+
+       <div>
+        <label for="comment">Enter about yourself</label>
+        <br>
+        <textarea name="comment" id="comment" rows="4" cols="50"></textarea>
+       </div>
+
+       <div>
+        <label for="language">select your preferred language for coding</label>
+        <br>
+        <select name="Language" id="language">
+            <option value="Java">java</option>
+            <option value="C">c</option>
+            <option value="C++">c++</option>
+            <option value="Python">python</option>
+        </select>
+       </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Specificity of an Element or class or something else in a CSS file">
+    <title>Cascading</title>
+    <link rel="stylesheet" href="cascading.css">
+</head>
+<body>
+    <h1>
+        This is a heading
+    </h1>
+    <div class="data" id="data" [data:x]="gold">
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <p>This is a paragraph</p>
+        <ul class="list">
+            <li>Universal selector 0.1</li>
+            <li>Element selector 1</li>
+            <li>class Attribute selector 10</li>
+            <li>ID selector 100</li>
+            <li>Inline selector 1000</li>
+            <li>important selector 10000</li>
+        </ul>
+    </div>
+</body>
+</html>

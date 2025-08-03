@@ -1,0 +1,14 @@
+/* External css */
+h1{
+    color: thistle;
+    background-color: black;
+    text-align: center;
+}
+div{
+    color: blue;
+    background-color: burlywood;
+}
+li{
+    color: lightgreen;
+    background-color: black;
+}

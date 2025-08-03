@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Variables and their use in CSS">
+    <title>Variables in CSS</title>
+    <Style>
+       :root{
+            --color: rgb(255, 0, 247);
+            --seccolor: rgb(231, 164, 246); 
+            --defpad: 23px;
+            --defop: 0.4;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+       .nav{
+            background-color: var(--color);
+        }
+
+        ul{
+            display: flex;
+        }
+
+        ul li{
+            opacity: var(--defop);
+            list-style: none;
+            padding: var(--defpad);
+            border: 2px solid var(--seccolor);
+        }
+
+        ul li:first-child{
+            --color: rgb(243, 87, 8);
+            background-color: var(--color, blue);
+        }
+
+        .container{
+            background-color: var(--seccolor);
+        }
+    </Style>
+</head>
+<body>
+    <ul><li>APPLE</li>
+    <li>Banana</li> <li>Mango</li> <li>Cherry</li> <li>Strawberry</li> <li>Grapes</li></ul>
+    <div class="Para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam asperiores praesentium, nam quo officia ipsum cum minus quos? Nesciunt libero quod eius aliquam nam, id doloremque accusantium. Eius provident porro maxime illum ratione labore eos saepe tempore, consequuntur praesentium sunt quod odit itaque! Consectetur, animi?</div>
+
+</body>
+</html>

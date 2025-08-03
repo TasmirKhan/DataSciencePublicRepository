@@ -1,0 +1,11 @@
+print("Here we are going to learn different concepts about the strings")
+str = input("Enter your Name with surname ")
+length = len(str)
+print(length)
+
+str2= input("Enter the second string containing a no. of $ sign")
+print(str2.find("$"))
+print(str2.replace("$","S"))
+print(str2.capitalize())
+#print(str2.find("$"))
+print(str2.count("$"))

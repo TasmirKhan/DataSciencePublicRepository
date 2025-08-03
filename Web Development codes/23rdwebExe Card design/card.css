@@ -1,0 +1,32 @@
+/* .box{
+    margin: 40px;
+    padding: 20px;
+    border: 2px solid white;
+    background-color:  gainsboro;
+    /* align-items: center; */
+  /*  width: 30vm;
+    height: 10vh;
+}
+img{
+    width
+    size: 50px ;
+} */
+.box {
+    width: 100%; /* Adjust as needed */
+    position: relative;
+  }
+  
+  .box{
+    content: "";
+    display: block;
+    padding-top: 56.25%; /* 16:9 aspect ratio (9/16 * 100) */
+  }
+  
+  .box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  

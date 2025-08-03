@@ -1,0 +1,59 @@
+h1{
+    color: red;
+    background-color: black;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    border: 2px solid black;
+    /* display: inline-block; */
+}
+div{
+    text-align: left;
+    /* padding: 10px; */
+    margin: 100px;
+    display: inline;
+    background-color: lightblue;
+
+}
+
+/* 1. Standard Display Values:
+block – The element takes up the full width available (e.g., <div>, <p>).
+inline – The element takes up only as much width as necessary (e.g., <span>, <a>).
+inline-block – Like inline, but allows setting width and height.
+none – The element is completely removed from the page (not visible and not taking space).
+
+
+2. Layout Model Display Values:
+flex – Enables a flexible layout model (e.g., row/column arrangements).
+inline-flex – Like flex, but behaves like an inline element.
+grid – Enables CSS grid layout for rows and columns.
+inline-grid – Like grid, but behaves like an inline element.
+
+
+
+3. Table Display Values (Mimics HTML Table Elements):
+table – Behaves like an HTML <table> element.
+table-row – Behaves like an HTML <tr> (table row).
+table-cell – Behaves like an HTML <td> (table cell).
+table-column – Behaves like an HTML <col> (table column).
+table-column-group – Behaves like an HTML <colgroup>.
+table-footer-group – Behaves like an HTML <tfoot>.
+table-header-group – Behaves like an HTML <thead>.
+table-row-group – Behaves like an HTML <tbody>.
+table-caption – Behaves like an HTML <caption>.
+
+
+
+4. Special Display Values:
+contents – Makes the element disappear but keeps its children visible.
+inherit – Inherits the display value from its parent.
+initial – Resets the display property to its default value.
+unset – Removes the display property, behaving as inherit or initial.
+
+
+
+
+5. Deprecated/Non-Standard Values (Avoid Using):
+run-in – Previously used to allow elements to behave as block or inline depending on context (now obsolete).
+compact – Deprecated value that used to style elements as inline followed by block (obsolete).
+ */

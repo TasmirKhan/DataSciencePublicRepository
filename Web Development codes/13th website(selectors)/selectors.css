@@ -1,0 +1,45 @@
+h1{
+    color: rgb(3, 68, 68);
+    text-align: center;
+}
+div > p{
+    color: red;
+}
+
+article p{
+    color: darkorange;
+}
+
+article{
+    color: purple
+}
+div{
+   color: violet; 
+}
+#red{
+    color: darkred;
+    text-align: left;
+}
+.font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+a:visited{
+    color: red;
+    background-color: black;
+}
+a:link{
+    color: green;
+    background-color: blanchedalmond;
+}
+a:active{
+    color: blue;
+    background-color: yellowgreen;
+}
+a:hover{
+    color: white;
+    background-color: black;
+}

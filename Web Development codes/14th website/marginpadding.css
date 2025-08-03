@@ -1,0 +1,21 @@
+.Box{
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+    border: 5px solid blue;
+}
+
+.box2{
+    background-color: darkred;
+}
+
+.box3{
+    background: fixed;
+    background-color: darkslategrey;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border: 5px dashed black;
+}
+

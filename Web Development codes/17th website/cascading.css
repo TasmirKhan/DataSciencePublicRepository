@@ -1,0 +1,19 @@
+#data{
+    color: grey;
+}
+.data{
+    color: red;
+}
+div#data{
+    color: blue;
+}
+
+#data{
+    color: rgb(102, 102, 2);
+}
+.data{
+    color: green;
+}
+.list{
+    color: rgb(162, 2, 255);
+}
