@@ -145,7 +145,7 @@ while(True):
             elif operation == '*':
             result = num1 * num2
             elif operation == '/':
-                if num2 == 0:
+            if num2 == 0:
                     print("❌ Error: Cannot divide by zero!")
                     continue
                 result = num1 / num2
