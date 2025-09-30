@@ -15,4 +15,4 @@ def numberAnalyzer():
     print(f"{sq}\n{even}\n{prime}")
 
 wordAnalyzer()
-numberAnalyzer()
+numberAnalyzer() 
